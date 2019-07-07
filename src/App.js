@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Chatbox from './components/chatbox';
-
+import {ALL_CHATS_QUERY, CREATE_CHAT_MUTATION} from './graph-query/chat-query'
 // Import GraphQL helpers
 import { graphql, compose } from 'react-apollo';
 import gql from 'graphql-tag';
@@ -59,46 +59,29 @@ class App extends Component {
   render() {
     const allChats = this.props.allChatsQuery.allChats || [];
     return (
-      <div className="">
+      <div className="App">
         <div className="container">
           <h2>Chats</h2>
           {allChats.map(message => (
             <Chatbox key={message.id} message={message} />
           ))}
-           <input
+       <div className='send-form'>  <input
+                className="chat-input"
                 value={this.state.content}
                 onChange={e => this.setState({ content: e.target.value })}
                 type="text"
                 placeholder="Start typing"
                 onKeyPress={this._createChat}
               />
-        </div>
+              <button onClick={this._createChat} className='send-button'>SEND</button>
+              </div>
+          
       </div>
+        </div> 
+      
     );
   }
 }
-
-const ALL_CHATS_QUERY = gql`
-  query AllChatsQuery {
-    allChats {
-      id
-      createdAt
-      from
-      content
-    }
-  }
-`;
-
-const CREATE_CHAT_MUTATION = gql`
-mutation CreateChatMutation($content: String!, $from: String!) {
-  createChat(content: $content, from: $from) {
-    id
-    createdAt
-    from
-    content
-  }
-}
-`;
 
 export default compose(
   graphql(ALL_CHATS_QUERY, { name: 'allChatsQuery' }),

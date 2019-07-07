@@ -3,10 +3,7 @@ import '../Chatbox.css'
     const Chatbox = ({message}) => (
       <div className="chat-box">
         <div className="chat-message">
-          <h5>{message.from}</h5>
-          <p>
-            {message.content}
-          </p>
+          <span><span className='nick'>{message.from}</span> : {message.content}</span>
         </div>
       </div>
     );

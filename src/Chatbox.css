@@ -1,0 +1,8 @@
+.chat-box {
+    border-radius: 30px;
+    height: 30px;
+    margin: 10px
+  }
+  .nick {
+      color: brown;
+  }

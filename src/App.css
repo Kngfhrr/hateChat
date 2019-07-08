@@ -1,46 +1,79 @@
+body {
+  background: #202021;
+}
 .App {
   display: flex;
-  justify-content: center;
- 
+  flex-direction: column;
+  align-items: center;
+}
+.tool-bar {
+  display: flex;
+  width: 250px;
+  height: 500px;
+  margin-left: 30px;
+  margin-top: 35px;
+  background: #858688;
+  -webkit-box-shadow: 3px 4px 11px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 3px 4px 11px -4px rgba(0, 0, 0, 0.69);
+  box-shadow: 3px 4px 11px -4px rgba(0, 0, 0, 0.69);
 }
 
-.container {
-  background: gray;
-  width: 600px;
+.chat-form {
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 30px
+  width: 600px;
+  background: #44494e;
+  overflow-y: auto;
 }
 
-.chat-message {
+.footer {
+  width: 600px;
+  height: 150px;
   display: flex;
-  flex-direction: column;
-  background: blanchedalmond;
-  width: max-content;
-  padding: 10px;
-  border-radius: 30px;
+  background: black;
+  justify-content: center;
+  align-items: center;
 }
-.chat-input {
-  height: 30px;
-    width: 500px;
-    border-radius: 30px;
-    border: solid 2px black;
-    outline: none;
-    font-size: 20px;
-    padding-left: 10px;
-}
-.send-button {
-  height: 33px;
-  width: 83px;
-  border-radius: 30px;
-  border: solid 2px black;
+
+.button-send {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
   outline: none;
-  font-size: 20px;
-  padding-left: 10px;
-  margin-left: 2px;
+  border: 1px solid rgba(245, 0, 87, 0.5);
+  background: black;
+  color: white;
+  cursor: pointer;
 
 }
-.send-form {
-  margin-top: 30px;
+
+.input-send {
+  height: 50px;
+  width: 500px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid rgba(245, 0, 87, 0.5);
+  background: black;
+  color: white;
+  font-size: 24px;
+  border-radius: 30px;
+}
+
+.message {
+  height: max-content;
+  background: #b8bfc7;
+  border-radius: 30px;
+  margin: 20px;
+  width: max-content;
+  word-wrap: break-word;
+  max-width: calc(30em * 0.5);
+  padding: 10px;
+
+}
+
+.block-message {
+  display: flex;
+}
+.login-name {
+  color: #F50057;
 }

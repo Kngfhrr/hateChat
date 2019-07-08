@@ -6,6 +6,7 @@ export const ALL_CHATS_QUERY = gql`
       createdAt
       from
       content
+   
     }
   }
 `;

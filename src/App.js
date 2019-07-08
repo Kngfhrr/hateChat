@@ -16,7 +16,7 @@ class App extends React.Component {
         from: 'anonymous',
         content: ''
     };
-    _createChat = async e => {
+    createChat = async e => {
         if (e.key === 'Enter') {
             const {content, from} = this.state;
             await this.props.createChatMutation({
@@ -32,7 +32,7 @@ class App extends React.Component {
         })
         this.setState({content: ''})
     }
-    _subscribeToNewChats = () => {
+    subscribeToNewChats = () => {
         this.props.allChatsQuery.subscribeToMore({
             document: gql`
           subscription {
@@ -63,24 +63,23 @@ class App extends React.Component {
     componentDidMount() {
         const from = window.prompt('username');
         from && this.setState({from});
-        this._subscribeToNewChats();
-        // const chatWindow = document.getElementById('chat-form');
-        // const height = chatWindow.scrollHeight;
-        // chatWindow.scrollBy(0, height);
-
+        this.subscribeToNewChats();
+        const chatWindow = document.getElementById('chat-form');
+        const height = chatWindow.scrollHeight;
+        chatWindow.scrollBy(0, height);
     }
     render() {
         const allChats = this.props.allChatsQuery.allChats || [];
         return (
             <div id='chat-form' className="App">
-                <div className='chat-form'>
+                <div id='chat-form' className='chat-form'>
                     {allChats.map(message => (
                         <Chatbox key={message.id} message={message}/>
                     ))}
                 </div>
                 <div className='footer'>
                     <input
-                        onKeyPress={this._createChat}
+                        onKeyPress={this.createChat}
                         placeholder='Start typing'
                         onChange={(e) => {
                             this.setState({content: e.target.value})

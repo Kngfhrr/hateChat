@@ -5,6 +5,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 50px;
 }
 .tool-bar {
   display: flex;
@@ -19,7 +20,7 @@ body {
 }
 
 .chat-form {
-  height: 100%;
+  height: 70vh;
   width: 600px;
   background: #44494e;
   overflow-y: auto;

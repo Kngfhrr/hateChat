@@ -1,34 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="532292e6-1515-4759-b676-d4750fbf49a0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/express-server/data/schema.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express-server/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/config.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/delete.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/delete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/test.graphql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/images/image.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/images/smile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/images/smile1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/styles/header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ui/header.js" afterDir="false" />
+    <list default="true" id="532292e6-1515-4759-b676-d4750fbf49a0" name="Default" comment="upd styles">
+      <change afterPath="$PROJECT_DIR$/express-server/src/models/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express-server/src/resolvers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express-server/src/resolvers/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express-server/src/resolvers/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express-server/src/schema/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express-server/src/schema/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/express-server/src/schema/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-server/data/schema.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-server/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.build/build.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/graphcool.yml" beforeDir="false" afterPath="$PROJECT_DIR$/server/graphcool.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/hello.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/hello.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/hello.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/hello.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/types.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/server/types.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chatbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/chatbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph-query/chat-query.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph-query/chat-query.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -61,73 +46,102 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
+        <entry file="file://$PROJECT_DIR$/express-server/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+            <state relative-caret-position="499">
+              <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#464#480#0" />
+                <element signature="e#974#998#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.js">
+        <entry file="file://$PROJECT_DIR$/express-server/src/schema/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            <state relative-caret-position="210">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/chatbox.js">
+        <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+            <state relative-caret-position="45">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/types.graphql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/express-server/index.js">
+        <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-server/data/schema.js">
+        <entry file="file://$PROJECT_DIR$/express-server/src/schema/message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="270">
+              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express-server/src/schema/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
               <folding>
-                <element signature="e#0#88#0" expanded="true" />
+                <element signature="e#0#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/package-lock.json">
+        <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/user.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/delete.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/src/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/express-server/src/models/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -163,7 +177,6 @@
       <list>
         <option value="$PROJECT_DIR$/../Chat/src/containers/pageProfile.js" />
         <option value="$PROJECT_DIR$/src/graph-query/subscribeChat.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/graphql-server-example/node_modules/apollo-server/src/index.ts" />
         <option value="$PROJECT_DIR$/graphql-server-example/index.js" />
         <option value="$PROJECT_DIR$/server/src/test.graphqle" />
@@ -183,8 +196,17 @@
         <option value="$PROJECT_DIR$/src/components/styles/header.css" />
         <option value="$PROJECT_DIR$/src/components/chatbox.js" />
         <option value="$PROJECT_DIR$/server/types.graphql" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/express-server/data/schema.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/express-server/models/models.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/express-server/src/schema/user.js" />
+        <option value="$PROJECT_DIR$/express-server/src/schema/message.js" />
+        <option value="$PROJECT_DIR$/express-server/src/resolvers/message.js" />
+        <option value="$PROJECT_DIR$/express-server/src/schema/index.js" />
+        <option value="$PROJECT_DIR$/express-server/src/resolvers/user.js" />
+        <option value="$PROJECT_DIR$/express-server/src/models/index.js" />
+        <option value="$PROJECT_DIR$/express-server/src/resolvers/index.js" />
         <option value="$PROJECT_DIR$/express-server/index.js" />
       </list>
     </option>
@@ -214,6 +236,37 @@
             </path>
             <path>
               <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
+              <item name="express-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
+              <item name="express-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
+              <item name="express-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resolvers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
           </expand>
@@ -237,6 +290,9 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/express-server/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/images" />
       <recent name="$PROJECT_DIR$/graphql-server-example/node_modules/apollo-server/src" />
@@ -267,7 +323,7 @@
       <workItem from="1562555545528" duration="6129000" />
       <workItem from="1562561706781" duration="19292000" />
       <workItem from="1562586667823" duration="86980000" />
-      <workItem from="1562904166682" duration="1944000" />
+      <workItem from="1562904166682" duration="19813000" />
     </task>
     <task id="LOCAL-00001" summary="upd styles">
       <created>1562561528263</created>
@@ -283,11 +339,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562564879179</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="upd styles">
+      <created>1562908169535</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562908169535</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114345000" />
+    <option name="totallyTimeSpent" value="132214000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,9 +369,9 @@
       <window_info id="Image Layers" />
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4966443" visible="true" weight="0.1128943" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49648383" visible="true" weight="0.1128943" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.5033557" side_tool="true" visible="true" weight="0.1128943" />
+      <window_info id="npm" order="2" sideWeight="0.5035162" side_tool="true" visible="true" weight="0.1128943" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -321,7 +384,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="8" sideWeight="0.49617487" weight="0.32900432" />
       <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49945354" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49562842" visible="true" weight="0.3563715" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49562842" visible="true" weight="0.23218143" />
       <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4989071" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5043716" side_tool="true" weight="0.26898047" />
       <window_info anchor="right" id="Maven" />
@@ -479,20 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/hello.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/delete.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/config.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -530,13 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -595,44 +637,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/src/hello.js">
+    <entry file="file://$PROJECT_DIR$/server/types.graphql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/data/schema.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="19" lean-forward="true" selection-start-column="3" selection-end-line="34" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="97" column="27" selection-start-line="97" selection-start-column="27" selection-end-line="97" selection-end-column="27" />
+        <state relative-caret-position="-59">
+          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/chatbox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/types.graphql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -643,20 +668,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-server/data/schema.js">
+    <entry file="file://$PROJECT_DIR$/src/components/chatbox.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
           <folding>
-            <element signature="e#0#88#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/hello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="52" selection-start-line="7" selection-start-column="52" selection-end-line="7" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/hello.graphql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/express-server/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        <state relative-caret-position="499">
+          <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#464#480#0" />
+            <element signature="e#974#998#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/src/schema/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/src/delete.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/src/models/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/src/schema/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/src/schema/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

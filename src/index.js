@@ -18,7 +18,7 @@ const wsLink = new WebSocketLink({
         reconnect: true
     }
 })
-const httpLink = new HttpLink({uri: 'https://api.graph.cool/simple/v1/cjxsslf8h2ihu0134ftkrtok7'});
+const httpLink = new HttpLink({uri: 'http://localhost:4003/graphql'});
 const link = split(
     ({query}) => {
         const {kind, operation} = getMainDefinition(query);

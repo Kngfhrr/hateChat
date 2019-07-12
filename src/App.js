@@ -94,7 +94,7 @@ class App extends React.Component {
         let data = new FormData();
         data.append("data", files[0]);
         console.log(files[0]);
-        return fetch('http://localhost:4002/file', {
+        return fetch('http://localhost:4002/file/', {
             method: "POST",
             body: data,
 

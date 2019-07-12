@@ -29,6 +29,7 @@
     "react-smooth-scrollbar": "^8.0.6",
     "smooth-scrollbar": "^8.4.0",
     "subscriptions-transport-ws": "^0.9.4",
+    "uuid": "^3.3.2",
     "webpack": "^3.11.0"
   },
   "scripts": {

@@ -3,5 +3,6 @@ type HelloPayload {
 }
 
 extend type Query {
-  hello(name: String): HelloPayload
+  randomNumber(name: String): HelloPayload
 }
+

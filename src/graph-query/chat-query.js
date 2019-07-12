@@ -7,14 +7,14 @@ export const ALL_CHATS_QUERY = gql`
             createdAt
             from
             content
-
+        
         }
     }
 `;
 
 export const CREATE_CHAT_MUTATION = gql`
     mutation CreateChatMutation($content: String!, $from: String!) {
-        createChat(content: $content, from: $from) {
+        createChat(content: $content, from: $from,) {
             id
             createdAt
             from
@@ -23,6 +23,11 @@ export const CREATE_CHAT_MUTATION = gql`
     }
 `;
 
-// export const DELETE_CHAT_MUTATION = gql`
-//     mutation DeleteChatMutation()
-// `
+export const DELETE_CHAT_MUTATION = gql`
+    mutation DeleteChatMutation($id: allId){
+        deleteChat(id: $allId){
+            allId
+            id
+        }
+    }
+`;

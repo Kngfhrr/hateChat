@@ -22,7 +22,7 @@ body {
 .chat-form {
   height: 70vh;
   width: 600px;
-  background: #44494e;
+  background: #2d2d56;
   overflow-y: auto;
 }
 
@@ -30,9 +30,11 @@ body {
   width: 600px;
   height: 150px;
   display: flex;
-  background: black;
+  background: #2d2d56;
   justify-content: center;
   align-items: center;
+  margin-top: 5px;
+  flex-direction: column;
 }
 
 .button-send {
@@ -49,26 +51,26 @@ body {
 }
 
 .input-send {
-  height: 50px;
-  width: 500px;
-  border-radius: 20px;
+  height: 70px;
+  width: 540px;
+  background: #353561;
   outline: none;
-  border: 1px solid rgba(245, 0, 87, 0.5);
-  background: black;
-  color: white;
-  font-size: 24px;
-  border-radius: 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: gray;
+  padding-left: 10px;
 }
 
 .message {
   height: max-content;
-  background: #b8bfc7;
-  border-radius: 30px;
-  margin: 20px;
+  background: #ffffff33;
+  border-radius: 15px;
   width: max-content;
   word-wrap: break-word;
   max-width: calc(30em * 0.5);
   padding: 10px;
+  margin-top: 4px;
 
 }
 
@@ -77,4 +79,25 @@ body {
 }
 .login-name {
   color: #F50057;
+}
+.message-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px
+}
+.time {
+  font-size: 12px;
+  color: gainsboro;
+}
+.nick {
+
+}
+.icons {
+  display: flow-root;
+  width: 524px;
+  margin-bottom: 10px;
+}
+.form {
+  padding: 5px;
+  height: 70vh;
 }

@@ -1,0 +1,7 @@
+type RandomNumberPayload {
+    num: String!
+}
+
+extend type Mutation {
+    randomNumber(min: String!): RandomNumberPayload
+}

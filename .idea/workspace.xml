@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="532292e6-1515-4759-b676-d4750fbf49a0" name="Default" comment="upd styles">
-      <change afterPath="$PROJECT_DIR$/express-server/src/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express-server/src/resolvers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express-server/src/resolvers/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express-server/src/resolvers/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express-server/src/schema/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express-server/src/schema/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/express-server/src/schema/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/express-server/data/schema.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/express-server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-server/src/resolvers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-server/src/resolvers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-server/src/resolvers/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-server/src/resolvers/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-server/src/schema/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/express-server/src/schema/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-server/src/schema/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/express-server/src/schema/user.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -20,6 +17,7 @@
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,103 +43,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file leaf-file-name="App.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#473#722#0" />
+                <element signature="e#2205#2229#0" />
+                <element signature="e#2097#2111#0" expanded="true" />
+                <element signature="e#2192#2206#0" expanded="true" />
+                <element signature="e#2735#2749#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chatbox.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/chatbox.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="types.graphql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/types.graphql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/express-server/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-                <element signature="e#464#480#0" />
-                <element signature="e#974#998#0" />
-              </folding>
+            <state relative-caret-position="2145">
+              <caret line="143" column="7" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-server/src/schema/user.js">
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/message.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-server/src/schema/message.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-server/src/schema/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-              <folding>
-                <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/delete.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="39" lean-forward="true" selection-start-column="39" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/src/test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="47" lean-forward="true" selection-start-column="47" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/express-server/src/models/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -153,8 +115,8 @@
       <list>
         <option value="GraphQL Endpoint File" />
         <option value="GraphQL File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -199,17 +161,507 @@
         <option value="$PROJECT_DIR$/express-server/data/schema.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/express-server/models/models.js" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/express-server/src/schema/user.js" />
-        <option value="$PROJECT_DIR$/express-server/src/schema/message.js" />
         <option value="$PROJECT_DIR$/express-server/src/resolvers/message.js" />
-        <option value="$PROJECT_DIR$/express-server/src/schema/index.js" />
         <option value="$PROJECT_DIR$/express-server/src/resolvers/user.js" />
         <option value="$PROJECT_DIR$/express-server/src/models/index.js" />
+        <option value="$PROJECT_DIR$/express-server/src/schema/message.js" />
+        <option value="$PROJECT_DIR$/express-server/src/schema/index.js" />
         <option value="$PROJECT_DIR$/express-server/src/resolvers/index.js" />
         <option value="$PROJECT_DIR$/express-server/index.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/@heroku/linewrap/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/@types/fs-extra/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/@types/node/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ajv-keywords/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ansi-escapes/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ansicolors/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/anymatch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/archiver-utils/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/archiver/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/argparse/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/arr-flatten/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/arr-union/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/array-differ/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/array-union/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/array-uniq/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/arrify/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/assign-symbols/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/async-each/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/atob/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/balanced-match/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/base/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/base/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/base/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/base/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/base/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/base/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/base/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/base64-js/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/binary-extensions/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/binary/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/bl/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/bluebird/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/brace-expansion/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/buffer-alloc-unsafe/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/buffer-alloc/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/buffer-crc32/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/buffer-fill/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/buffer/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/buffers/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cache-base/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cache-base/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cache-require-paths/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/callsites/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cardinal/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/caw/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/chainsaw/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/chardet/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/charenc/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/charm/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/chokidar/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/class-utils/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/class-utils/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/class-utils/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cli-cursor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cli-table/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cli-width/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/co/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/collection-visit/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/color-convert/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/color-name/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/colors/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/commander/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/component-emitter/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/compress-commons/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/concat-map/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/config-chain/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/copy-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/crc/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/crc32-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cross-fetch/node_modules/node-fetch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cross-fetch/node_modules/whatwg-fetch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cross-fetch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/cross-fetch/polyfill/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/crypt/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decode-uri-component/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress-response/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress-tar/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress-tarbz2/node_modules/file-type/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress-tarbz2/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress-targz/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress-unzip/node_modules/file-type/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress-unzip/node_modules/get-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress-unzip/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress-unzip/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/decompress/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/define-property/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/define-property/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/define-property/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/define-property/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/define-property/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/diff/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/directory-tree/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/download-github-repo/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/download/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/duplexer/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/duplexer3/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/encoding/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/end-of-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/escape-string-regexp/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/event-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/expand-range/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ext-list/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ext-name/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/extend-shallow/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/external-editor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fast-extend/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fast-json-stable-stringify/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fd-slicer/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/figures/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/file-type/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/filename-regex/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/filename-reserved-regex/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/filenamify/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/find-up/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/for-in/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/for-own/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fragment-cache/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/from/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fs-constants/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fs-extra/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fs-monkey/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fs.realpath/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fstream/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/fstream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/get-proxy/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/get-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/get-value/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/glob-base/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/glob-parent/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/glob/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/globby/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/globby/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/got/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graceful-fs/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graceful-readlink/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-cli-core/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-cli-engine/node_modules/ajv/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-cli-engine/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-cli-engine/node_modules/fast-deep-equal/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-cli-engine/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-cli-engine/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-cli-engine/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-cli-engine/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-cli-engine/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-framework/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-inquirer/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphcool-json-schema/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphql-request/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/graphql/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-ansi/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-ansi/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-flag/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-symbol-support-x/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-to-string-tag-x/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-values/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-values/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-values/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/homedir-polyfill/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ieee754/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/inflight/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ini/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/inquirer/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-binary-path/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-buffer/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-dotfile/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-equal-shallow/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-extglob/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-fullwidth-code-point/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-glob/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-natural-number/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-object/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-plain-obj/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-plain-object/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-plain-object/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-posix-bracket/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-primitive/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-promise/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-retry-allowed/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-windows/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/is-wsl/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/isomorphic-fetch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/isurl/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/iterall/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/js-yaml/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/json-schema-traverse/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/jsonfile/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/jsonparse/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/jsonstream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/jwt-decode/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/klaw-sync/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lazystream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/locate-path/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.ary/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.assign/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.defaults/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.differenceby/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.every/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.flatten/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.flattendeep/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.foreach/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.get/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.groupby/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.identity/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.keys/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.map/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.maxby/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.merge/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.partial/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.property/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.result/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.toarray/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash.uniqby/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lodash/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/lowercase-keys/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/make-dir/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/make-error/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/map-cache/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/map-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/map-visit/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/marked-terminal/node_modules/ansi-regex/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/marked-terminal/node_modules/ansi-styles/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/marked-terminal/node_modules/chalk/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/marked-terminal/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/marked-terminal/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/marked-terminal/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/marked/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/match-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/match-stream/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/match-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/match-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/math-random/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/md5/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/memfs/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/mimic-fn/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/mimic-response/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/minimatch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/mixin-deep/node_modules/is-extendable/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/mixin-deep/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/mkdirp/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/multimatch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/mute-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/nanomatch/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/nanomatch/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/nanomatch/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/nanomatch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/natives/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/node-emoji/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/node-fetch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/normalize-path/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/npm-conf/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/object-copy/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/object-copy/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/object-visit/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/object-visit/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/object.omit/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/object.pick/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/object.pick/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/once/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/onetime/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/opn/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/os-tmpdir/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/over/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/p-cancelable/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/p-event/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/p-finally/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/p-limit/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/p-locate/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/p-timeout/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/p-try/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/parse-glob/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/parse-passwd/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pascalcase/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/path-exists/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/path-is-absolute/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pause-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pause/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pend/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pify/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pinkie-promise/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pinkie/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/portfinder/node_modules/async/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/portfinder/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/posix-character-classes/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/prepend-http/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/preserve/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/proto-list/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pullstream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pullstream/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pullstream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/pullstream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/punycode/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/randomatic/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/randomatic/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/randomatic/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/raven/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/arr-diff/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/array-unique/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/braces/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/braces/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/expand-brackets/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/expand-brackets/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/expand-brackets/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/expand-brackets/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/expand-brackets/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/extglob/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/extglob/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/extglob/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/fill-range/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/fill-range/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/is-number/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/node_modules/micromatch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/readdirp/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/redeyed/node_modules/esprima/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/redeyed/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/regex-cache/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/regex-not/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/remove-trailing-separator/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/repeat-element/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/repeat-string/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/replaceall/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/resolve-url/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/restore-cursor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ret/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/rimraf/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/run-async/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/rwlockfile/node_modules/fs-extra/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/rwlockfile/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/rx-lite-aggregates/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/rx-lite/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/safe-regex/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/safer-buffer/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/scuid/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/seek-bzip/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/set-value/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/set-value/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/setimmediate/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/signal-exit/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/sillyname/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/slice-ansi/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/slice-stream/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/slice-stream/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/slice-stream/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/slice-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon-node/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon-node/node_modules/is-accessor-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon-node/node_modules/is-data-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon-node/node_modules/is-descriptor/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon-node/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon-node/node_modules/kind-of/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon-node/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon-util/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon/node_modules/extend-shallow/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/snapdragon/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/sort-keys-length/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/sort-keys/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/source-map-resolve/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/source-map-support/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/source-map-url/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/source-map/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/split-string/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/split/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/sprintf-js/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/stack-trace/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/static-extend/node_modules/define-property/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/static-extend/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/stream-combiner/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/string-similarity/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/string-width/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/string/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/strip-ansi/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/strip-bom/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/strip-dirs/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/strip-json-comments/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/strip-outer/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/supports-color/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/table/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/tar-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/through/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/through2/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/timed-out/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/tmp/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/to-buffer/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/to-object-path/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/to-regex-range/node_modules/is-number/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/to-regex-range/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/to-regex/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/traverse/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/treeify/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/trim-repeated/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ts-node/node_modules/minimist/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/ts-node/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/tsconfig/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/tunnel-agent/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/typescript/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/unbzip2-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/union-value/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/universalify/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/unset-value/node_modules/has-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/unset-value/node_modules/has-value/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/unset-value/node_modules/has-values/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/unset-value/node_modules/isobject/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/unset-value/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/unzip/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/unzip/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/unzip/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/unzip/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/uri-js/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/urix/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/url-parse-lax/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/url-to-options/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/use/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/uuid/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/v8flags/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/validator/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/whatwg-fetch/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/wrappy/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/xtend/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/yaml-ast-parser/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/yauzl/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/yn/package.json" />
+      <path value="$PROJECT_DIR$/home/nshutov/WebstormProjects/hateChat/node_modules/node_modules/zip-stream/package.json" />
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/server/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="263" />
@@ -222,48 +674,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
-              <item name="express-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
-              <item name="express-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
-              <item name="express-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
-              <item name="express-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resolvers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hateChat" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="GraphQL Schemas" type="390a5855:JSGraphQLSchemaDirectoryNode" />
             </path>
             <path>
               <item name="hateChat" type="b2602c69:ProjectViewProjectNode" />
@@ -273,7 +690,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -290,12 +706,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/express-server/src" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/images" />
       <recent name="$PROJECT_DIR$/graphql-server-example/node_modules/apollo-server/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/express-server/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -323,7 +739,7 @@
       <workItem from="1562555545528" duration="6129000" />
       <workItem from="1562561706781" duration="19292000" />
       <workItem from="1562586667823" duration="86980000" />
-      <workItem from="1562904166682" duration="19813000" />
+      <workItem from="1562904166682" duration="27780000" />
     </task>
     <task id="LOCAL-00001" summary="upd styles">
       <created>1562561528263</created>
@@ -346,11 +762,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562908169535</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="upd styles">
+      <created>1562941108825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562941108825</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132214000" />
+    <option name="totallyTimeSpent" value="141442000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,59 +788,73 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info id="UI Designer" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49648383" visible="true" weight="0.1128943" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="npm" order="2" sideWeight="0.5035162" side_tool="true" visible="true" weight="0.1128943" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="GraphQL" order="7" sideWeight="0.49617487" weight="0.32900432" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5043716" side_tool="true" weight="0.26898047" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989071" weight="0.329718" />
+      <window_info id="npm" order="2" sideWeight="0.50084317" side_tool="true" visible="true" weight="0.11311475" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286638" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49562842" visible="true" weight="0.35683298" />
+      <window_info anchor="bottom" id="TypeScript" order="7" sideWeight="0.49945354" weight="0.329718" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49915683" visible="true" weight="0.11311475" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GraphQL" order="8" sideWeight="0.49617487" weight="0.32900432" />
-      <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49945354" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49562842" visible="true" weight="0.23218143" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4989071" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5043716" side_tool="true" weight="0.26898047" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" visible="true" weight="0.32982844" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info id="Designer" order="3" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="TypeScript" order="12" sideWeight="0.49945354" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49562842" visible="true" weight="0.23218143" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5043716" side_tool="true" weight="0.26898047" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49648383" visible="true" weight="0.1128943" />
+      <window_info id="npm" order="3" sideWeight="0.5035162" side_tool="true" visible="true" weight="0.1128943" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4989071" weight="0.329718" />
+      <window_info anchor="bottom" id="GraphQL" order="7" sideWeight="0.49617487" weight="0.32900432" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" visible="true" weight="0.33370227" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4989071" weight="0.329718" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="2" side_tool="true" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24972677" />
+      <window_info anchor="bottom" id="GraphQL" order="8" sideWeight="0.49617487" weight="0.32900432" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49945354" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="GraphQL" order="8" sideWeight="0.49617487" weight="0.32900432" />
-      <window_info anchor="bottom" id="TypeScript" order="9" sideWeight="0.49945354" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49562842" visible="true" weight="0.25813448" />
-      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.4989071" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5043716" side_tool="true" weight="0.26898047" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49562842" visible="true" weight="0.25813448" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,50 +885,12 @@
         </entry>
       </map>
     </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list />
-          </value>
-        </entry>
-        <entry key="User">
-          <value>
-            <list />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="upd styles" />
     <option name="LAST_COMMIT_MESSAGE" value="upd styles" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Chat/src/App.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Chat/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Chat/src/styles/page-profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Chatbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Chat/src/containers/pageProfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
@@ -644,23 +1043,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-server/data/schema.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="19" lean-forward="true" selection-start-column="3" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="102" column="25" selection-start-line="102" selection-start-column="25" selection-end-line="102" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/data/schema.js" />
     <entry file="file://$PROJECT_DIR$/server/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -678,16 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/hello.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -699,25 +1072,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="154" column="9" lean-forward="true" selection-start-line="154" selection-start-column="9" selection-end-line="154" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <element signature="e#464#480#0" />
-            <element signature="e#974#998#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-server/src/schema/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -742,44 +1096,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/user.js" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/HTML-Groovy.html.groovy" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/data/extractors/JSON-Groovy.json.groovy" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema.layouts/File per object.groovy" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/extensions/com.intellij.database/schema/Generate POJOs.groovy" />
+    <entry file="file://$PROJECT_DIR$/express-server/src/schema/user.js" />
+    <entry file="file://$PROJECT_DIR$/express-server/src/schema/message.js" />
+    <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/message.js" />
     <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="539">
+          <caret line="90" column="10" lean-forward="true" selection-start-line="90" selection-start-column="10" selection-end-line="90" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/express-server/src/schema/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/express-server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="143" column="7" selection-start-line="143" selection-start-column="7" selection-end-line="143" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="49" column="32" lean-forward="true" selection-start-line="49" selection-start-column="32" selection-end-line="49" selection-end-column="32" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#473#722#0" />
+            <element signature="e#2205#2229#0" />
+            <element signature="e#2097#2111#0" expanded="true" />
+            <element signature="e#2192#2206#0" expanded="true" />
+            <element signature="e#2735#2749#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-server/src/schema/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/express-server/src/resolvers/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>

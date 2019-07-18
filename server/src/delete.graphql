@@ -1,0 +1,7 @@
+type deleteChat {
+    allId: String!
+}
+
+extend type Mutation {
+    deleteChatCustom(value: String!): deleteChat
+}

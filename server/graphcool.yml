@@ -21,9 +21,17 @@ types: ./types.graphql
 functions:
   hello:
     handler:
-      code: src/hello.js
+      code: src/test.js
     type: resolver
-    schema: src/hello.graphql
+    schema: src/test.graphql
+
+#functions:
+#  delete:
+#    handler:
+#      code: src/delete.js
+#    type: resolver
+#    schema: src/delete.graphql
+
 
 
 # Model/Relation permissions are used to limit the API access

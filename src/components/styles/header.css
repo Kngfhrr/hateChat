@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.header {
+    width: 600px;
+    height: 70px;
+    background: #353561;
+    margin-bottom: 5px;
+    border-radius: 4px
+}
+.hateChat {
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+}
+
+.enterName {
+    background: #353561;
+    outline: none;
+}
+.your-login {
+    float: right;
+    margin-right: 10px;
+}
+.user-online {
+    font-family: 'Montserrat', sans-serif;
+    color: #c0c0c0;
+    margin: 10px;
+}

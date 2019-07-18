@@ -1,10 +1,26 @@
 import React from 'react';
-import '../Chatbox.css'
-    const Chatbox = ({message}) => (
-      <div className="chat-box">
-        <div className="chat-message">
-          <span><span className='nick'>{message.from}</span> : {message.content}</span>
-        </div>
+import '../App.css'
+import moment from 'moment'
+const colors = ['grey'];
+var rand = colors[Math.floor(Math.random() * colors.length)];
+console.log(rand);
+
+
+    this.state = {
+       login: '',
+        };
+
+
+     const Chatbox = ({message}) => (
+
+      <div className='message-block'>
+          <div>    <span  style={{color: rand, marginBottom: '20px'}} >{message.login}</span>
+              <div className="message">
+                  <span> {message.message} </span>
+              </div> </div>
+       <div className='time'>{moment(message.date).format("h:mm:ss a")}</div>
       </div>
     );
-    export default Chatbox;
+
+
+export default Chatbox;

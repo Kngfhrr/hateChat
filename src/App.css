@@ -1,46 +1,107 @@
+body {
+  background-image: url('./components/images/dark-abstract-blur-4k-on-1920x1080.jpg');
+}
 .App {
   display: flex;
-  justify-content: center;
- 
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.tool-bar {
+  display: flex;
+  width: 250px;
+  height: 500px;
+  margin-left: 30px;
+  margin-top: 35px;
+  background: #858688;
+  -webkit-box-shadow: 3px 4px 11px -4px rgba(0, 0, 0, 0.69);
+  -moz-box-shadow: 3px 4px 11px -4px rgba(0, 0, 0, 0.69);
+  box-shadow: 3px 4px 11px -4px rgba(0, 0, 0, 0.69);
 }
 
-.container {
-  background: gray;
+.chat-form {
+  height: 70vh;
   width: 600px;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  padding: 30px
+  background: rgba(40, 40, 76, 0.4);
+  overflow-y: scroll;
+
+  border-radius: 4px;
+}
+.chat-form::-webkit-scrollbar {
+  display: none;
 }
 
-.chat-message {
+
+.footer {
+  width: 600px;
+  height: 150px;
   display: flex;
+  background: #2d2d56;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
   flex-direction: column;
-  background: blanchedalmond;
-  width: max-content;
-  padding: 10px;
-  border-radius: 30px;
+  border-radius: 4px;
 }
-.chat-input {
-  height: 30px;
-    width: 500px;
-    border-radius: 30px;
-    border: solid 2px black;
-    outline: none;
-    font-size: 20px;
-    padding-left: 10px;
-}
-.send-button {
-  height: 33px;
-  width: 83px;
-  border-radius: 30px;
-  border: solid 2px black;
+
+.button-send {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
   outline: none;
-  font-size: 20px;
-  padding-left: 10px;
-  margin-left: 2px;
+  border: 1px solid rgba(245, 0, 87, 0.5);
+  background: black;
+  color: white;
+  cursor: pointer;
 
 }
-.send-form {
-  margin-top: 30px;
+
+.input-send {
+  height: 70px;
+  width: 540px;
+  background: #353561;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: gray;
+  padding-left: 10px;
+}
+
+.message {
+  height: max-content;
+  background: #ffffff33;
+  border-radius: 15px;
+  width: max-content;
+  word-wrap: break-word;
+  max-width: calc(30em * 0.5);
+  padding: 10px;
+  margin-top: 4px;
+
+}
+
+.block-message {
+  display: flex;
+}
+.login-name {
+  color: #F50057;
+}
+.message-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 17px
+}
+.time {
+  font-size: 12px;
+  color: gainsboro;
+}
+.nick {
+
+}
+.icons {
+  display: flow-root;
+  width: 524px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }

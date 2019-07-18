@@ -1,5 +1,5 @@
 body {
-  background: #202021;
+  background-image: url('./components/images/dark-abstract-blur-4k-on-1920x1080.jpg');
 }
 .App {
   display: flex;
@@ -22,9 +22,15 @@ body {
 .chat-form {
   height: 70vh;
   width: 600px;
-  background: #2d2d56;
-  overflow-y: auto;
+  background: rgba(40, 40, 76, 0.4);
+  overflow-y: scroll;
+
+  border-radius: 4px;
 }
+.chat-form::-webkit-scrollbar {
+  display: none;
+}
+
 
 .footer {
   width: 600px;
@@ -35,6 +41,7 @@ body {
   align-items: center;
   margin-top: 5px;
   flex-direction: column;
+  border-radius: 4px;
 }
 
 .button-send {
@@ -83,7 +90,7 @@ body {
 .message-block {
   display: flex;
   justify-content: space-between;
-  margin: 20px
+  margin: 17px
 }
 .time {
   font-size: 12px;
@@ -96,8 +103,5 @@ body {
   display: flow-root;
   width: 524px;
   margin-bottom: 10px;
-}
-.form {
-  padding: 5px;
-  height: 70vh;
+  margin-top: 10px;
 }

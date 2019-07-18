@@ -154,5 +154,5 @@ app.post('/file', function (req, res, next) {
     form.parse(req)
 });
 
-app.listen({port: 4003}, () =>
+app.listen({port: 4005}, () =>
     console.log(`🚀 Server ready at http://localhost:4000${server.graphqlPath}`));

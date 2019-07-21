@@ -12,7 +12,7 @@ const Header = ({data}) => (
 
         </div>
         <span className='user-online'>
-            {'0'} Users online
+            {console.log(data)} Users online
         </span>
         <span className='your-login'>{data.login}</span>
     </div>

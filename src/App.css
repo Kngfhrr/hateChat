@@ -1,6 +1,11 @@
 body {
   background-image: url('./components/images/dark-abstract-blur-4k-on-1920x1080.jpg');
 }
+
+.test {
+  position: fixed;
+  bottom: 159px;
+}
 .App {
   display: flex;
   flex-direction: column;
@@ -20,7 +25,7 @@ body {
 }
 
 .chat-form {
-  height: 70vh;
+  height: 60vh;
   width: 600px;
   background: rgba(40, 40, 76, 0.4);
   overflow-y: scroll;
@@ -96,9 +101,7 @@ body {
   font-size: 12px;
   color: gainsboro;
 }
-.nick {
 
-}
 .icons {
   display: flow-root;
   width: 524px;

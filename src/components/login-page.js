@@ -8,27 +8,30 @@ class Login extends React.Component {
         super(props);
         socket.on('join', (data) => {
             console.log(data);
-            this.setState({online: data});
-
+            this.setState({online: data.join, room: data.rooms});
         })
     }
 
     state = {
         online: '',
+        room: '',
         login: 'Anon'
     };
 
     onButtonClick = () => {
         const online = this.state.online;
         const {history} = this.props;
-        if (online === 'test') {
+        const room = this.state.room;
+         console.log(room)
+        if (online === 1) {
             return alert('Waiting to connect')
         }
-        history.push('/chat', {login: this.state.login});
+        history.push('/chat', {login: this.state.login, room });
         this.onJoin();
     };
     onJoin = () => {
         socket.emit('join', 'Test');
+       
         console.log(this.state.online)
     };
 
@@ -42,7 +45,7 @@ class Login extends React.Component {
                     <span>Online users: {this.state.online}</span>
                     </div>
                 </div>
-
+                
                 <div className='login-form'>
                     <span className='login-text'>Login</span>
                     <input className='login-input' placeholder='Enter login' onChange={(e) => {

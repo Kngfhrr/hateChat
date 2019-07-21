@@ -3,6 +3,11 @@ import Header from './ui/header';
 import smile from './images/smile1.svg'
 import Chatbox from './chatbox'
 import image from './images/image.svg'
+import 'emoji-mart/css/emoji-mart.css'
+import { Picker } from 'emoji-mart'
+import data from 'emoji-mart/data/messenger.json';
+import { NimblePicker } from 'emoji-mart';
+
 import socket from './api'
 import FileBase64 from 'react-file-base64';
 
@@ -30,16 +35,22 @@ class Chat extends React.Component {
         msg: '',
         login: 'Anon',
         online: '',
-        files: []
+        files: [],
+        showReply: false
     };
+    onClick=(e)=>{
+        e.preventDefault();
+        this.setState({showReply: !this.state.showReply})
+      };
 
     getFiles=(files)=>{
         this.setState({ files: files })
         console.log(this.state.files)
     }
-
-
     createChat = async e => {
+        const data = this.props.location.state;
+        const room = data.room;
+        console.log(data)
         if (e.key === 'Enter') {
             const date = new Date();
             const login = this.state.login;
@@ -47,7 +58,7 @@ class Chat extends React.Component {
             if (msg === '') {
                 return console.log('empty')
             } else {
-                socket.emit('message', {message: msg, date, login});
+                socket.emit('message', {message: msg, date, login, room });
             }
         }
     };
@@ -57,7 +68,7 @@ class Chat extends React.Component {
         let data = new FormData();
         data.append("data", files[0]);
         console.log(files[0]);
-        return fetch('http://localhost:3045/file', {
+        return fetch('http://localhost:3048/file', {
             method: "POST",
             body: data,
 
@@ -76,7 +87,6 @@ class Chat extends React.Component {
             <div className="App">
                 <Header data={state}/>
                 <div>
-
                     <div id='chat-form'
                          className='chat-form'>
                         {message.map((message, index) =>
@@ -87,10 +97,13 @@ class Chat extends React.Component {
                 </div>
                 <div className='footer'>
                     <div className='icons'>
-                        <img style={{width: '30px', cursor: 'pointer'}} src={smile} alt={''}/>
+                
+                        {this.state.showReply &&  <span className='test'><NimblePicker  set='messenger' data={data} /></span>}
+                   
+                        <img onClick={this.onClick} style={{width: '30px', cursor: 'pointer'}} src={smile} alt={''}/>
                         <FileBase64
                             multiple={ true }
-                            onDone={ this.getFiles } />
+                            onDone={this.getFiles} />
                             <button onClick={this.uploadFile}>send img</button>
                     </div>
 
@@ -105,11 +118,8 @@ class Chat extends React.Component {
                 <div style={{width: '150px', height: '20px'}}>
 
                 </div>
-
-
             </div>
         );
     }
 }
-
 export default Chat;

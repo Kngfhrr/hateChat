@@ -1,5 +1,5 @@
 body {
-  background-image: url('./components/images/dark-abstract-blur-4k-on-1920x1080.jpg');
+  background-image: url('assets/images/dark-abstract-blur-4k-on-1920x1080.jpg');
 }
 
 .test {
@@ -27,7 +27,8 @@ body {
 .chat-form {
   height: 60vh;
   width: 600px;
-  background: rgba(40, 40, 76, 0.4);
+  background: #282d38;
+  opacity: 0.4;
   overflow-y: scroll;
 
   border-radius: 4px;
@@ -41,7 +42,7 @@ body {
   width: 600px;
   height: 150px;
   display: flex;
-  background: #2d2d56;
+  background:#282d38;
   justify-content: center;
   align-items: center;
   margin-top: 5px;
@@ -65,7 +66,7 @@ body {
 .input-send {
   height: 70px;
   width: 540px;
-  background: #353561;
+  background: #363b45;
   outline: none;
   border: none;
   border-radius: 4px;

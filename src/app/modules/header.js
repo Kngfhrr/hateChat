@@ -1,11 +1,11 @@
 import React from "react";
-import "../styles/header.css";
+import "../components/styles/header.css";
 
 const Header = props => (
   <div className="header">
     <div className={"logo"}>
       <img
-        src={require("../../../assets/icons/logo.svg")}
+        src={require("../../assets/icons/logo.svg")}
         alt={"f"}
         style={{ width: 50, height: 50 }}
       />
@@ -29,7 +29,7 @@ const Header = props => (
         src={
           !!props.photo
             ? props.photo
-            : require("../../../assets/icons/logo.svg")
+            : require("../../assets/icons/logo.svg")
         }
         className={"photo"}
       />

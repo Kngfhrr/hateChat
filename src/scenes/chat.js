@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "../app/components/chat/header";
-import Chatbox from "../app/components/chatbox";
+import Header from "../app/modules/header";
+import Chatbox from "../app/components/chat/chatbox";
 import "emoji-mart/css/emoji-mart.css";
 import socket from "../app/components/api";
 import "../App.css";
-import Footer from "../app/components/chat/footer";
+import Footer from "../app/modules/footer";
 
 class Chat extends React.Component {
   constructor(props) {
@@ -28,15 +28,12 @@ class Chat extends React.Component {
     msg: "",
     login: "Anon",
     online: "",
-    files: [],
-    showReply: false
   };
 
-  createChat = async e => {
+  createChat = e => {
     const data = this.props.location.state;
     const room = data.room;
-    console.log(data);
-    if (e.key === "Enter") {
+    if (e.key === "Enter" || e.type === "click") {
       const date = new Date();
       const login = this.state.login;
       const msg = this.state.msg;
@@ -49,6 +46,7 @@ class Chat extends React.Component {
   };
 
   render() {
+    console.log(this.state.msg);
     const state = this.props.location.state;
     const message = this.state.message;
     return (
@@ -61,7 +59,11 @@ class Chat extends React.Component {
             ))}
           </div>
         </div>
-        <Footer />
+        <Footer
+          onPress={this.createChat}
+          onChange={e => this.setState({ msg: e.target.value })}
+          value={this.state.msg}
+        />
       </div>
     );
   }

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+.header {
+    width: 600px;
+    height: 70px;
+    background: #282d38;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.hateChat {
+    font-size: 20px;
+    font-family: 'Rock Salt', cursive;
+    margin-left: 10px;
+}
+
+.enterName {
+    background: #353561;
+    outline: none;
+}
+.your-login {
+    float: right;
+    color: silver;
+    font-size: 22px;
+}
+.status {
+    width: 5px;
+    height: 5px;
+    border-radius: 2px;
+    margin-right: 10px;
+}
+.online-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.user-online {
+    font-family: 'Montserrat', sans-serif;
+    color: #c0c0c0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.users-info {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background: #858688;
+}
+.companion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.photo {
+    width: 100%;
+    height: 100%;
+     border-radius: 50%;
+}
+.active {
+    color: silver;
+    font-size: 13px;
+}

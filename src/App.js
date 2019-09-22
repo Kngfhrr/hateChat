@@ -1,5 +1,5 @@
 import React from 'react';
-import Login from "./components/login-page";
+import Login from "./scenes/login-page";
 
 
 

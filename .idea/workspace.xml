@@ -2,40 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="532292e6-1515-4759-b676-d4750fbf49a0" name="Default" comment="upd styles">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scenes/login-page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/.graphcoolrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/config.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/graphcool.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/delete.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/delete.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/hello.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/test.graphql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/types.graphql" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/send1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/send2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/send3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/send4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/smile1.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server-socket/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-socket/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chatbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chatbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/images/dark-abstract-blur-4k-on-1920x1080.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/dark-abstract-blur-4k-on-1920x1080.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/images/image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/image.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/images/smile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/smile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/images/smile1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/smile1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/login-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/styles/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/styles/login-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/styles/login-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chat/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chat/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph-query/chat-query.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/graph-query/subscribeChat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/chat/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/chat/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/components/chatbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chat/chatbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/chat.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,12 +63,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="263" />
-    <option name="y" value="90" />
-    <option name="width" value="1420" />
-    <option name="height" value="710" />
-  </component>
   <component name="ProjectId" id="1R8is3KFN5H9sTVnUtOw3g5pgzs" />
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="postgresql" />
@@ -106,17 +79,18 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/modules" />
+      <recent name="$PROJECT_DIR$/src/app/components/chat" />
+      <recent name="$PROJECT_DIR$/src/scenes" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/app" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets/icons" />
       <recent name="$PROJECT_DIR$/src/components/images" />
       <recent name="$PROJECT_DIR$/server-socket" />
       <recent name="$PROJECT_DIR$/graphql-server-example/node_modules/apollo-server/src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/scenes" />
-      <recent name="$PROJECT_DIR$/src/assets" />
-      <recent name="$PROJECT_DIR$/src/app" />
-      <recent name="$PROJECT_DIR$/express-server/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -129,6 +103,16 @@
           <option name="name" value="StatusDashboardGroupingRule" />
         </RuleState>
       </list>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand />
+          <select />
+        </treeState>
+      </serviceView>
     </option>
   </component>
   <component name="SvnConfiguration">

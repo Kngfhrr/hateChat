@@ -1,12 +1,12 @@
-var app = require('express')();
-var server = require('http').Server(app);
-var io = require('socket.io')(server);
-var multiparty = require('multiparty');
-var cors = require('cors');
+let app = require('express')();
+let server = require('http').Server(app);
+let io = require('socket.io')(server);
+let multiparty = require('multiparty');
+let cors = require('cors');
 app.use(cors());
 
 
-server.listen(3048);
+server.listen(3049);
 
 const quest = [];
 const rooms = [];

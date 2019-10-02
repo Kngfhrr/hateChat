@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../App.css'
+import '../../../App.css'
 import moment from 'moment'
 const colors = ['grey'];
 var rand = colors[Math.floor(Math.random() * colors.length)];

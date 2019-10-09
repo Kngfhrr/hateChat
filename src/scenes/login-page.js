@@ -5,18 +5,31 @@ import { withRouter } from "react-router-dom";
 
 class Login extends React.Component {
   constructor(props) {
+    let online = 0;
     super(props);
-    socket.on("join", data => {
+    socket.on("news", data => {
       console.log(data);
       this.setState({ online: data.join, room: data.rooms });
     });
+      socket.on('connect_error', function(){
+          console.log('Connection Failed');
+          online++;
+          if (online>=5){
+              socket.disconnect();
+              console.log("stop reconection");
+          }
+      });
+      socket.on('reconnect', function(){
+          console.log('reconnect');
+         online=0;
+      });
   }
 
   state = {
-    online: "",
     room: "",
-    login: "Anon"
+    login: "Anon",
   };
+
 
   onButtonClick = () => {
     const online = this.state.online;
@@ -31,8 +44,6 @@ class Login extends React.Component {
   };
   onJoin = () => {
     socket.emit("join", "Test");
-
-    console.log(this.state.online);
   };
 
   render() {

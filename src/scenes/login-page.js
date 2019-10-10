@@ -1,33 +1,37 @@
 import React from "react";
-import socket from "../app/components/api";
+// import socket from "../app/components/api";
 import "../app/components/styles/login-page.css";
 import { withRouter } from "react-router-dom";
+import * as socketCluster from "socketcluster-client";
+
+
+let options = {
+    port: 8000,
+    hostname: "localhost",
+    autoConnect: true,
+};
+
+   const socket = socketCluster.connect(options)
 
 class Login extends React.Component {
   constructor(props) {
-    let online = 0;
+
+
+
     super(props);
-    socket.on("news", data => {
-      console.log(data);
-      this.setState({ online: data.join, room: data.rooms });
-    });
-      socket.on('connect_error', function(){
-          console.log('Connection Failed');
-          online++;
-          if (online>=5){
-              socket.disconnect();
-              console.log("stop reconection");
-          }
+      socket.on('error', function (err) {
+          throw 'Socket error - ' + err;
       });
-      socket.on('reconnect', function(){
-          console.log('reconnect');
-         online=0;
+
+      socket.on('connect', function () {
+          console.log('Connected to server');
       });
   }
 
   state = {
     room: "",
     login: "Anon",
+      online: 0
   };
 
 
@@ -39,7 +43,7 @@ class Login extends React.Component {
     if (online === 1) {
       return alert("Waiting to connect");
     }
-    history.push("/chat", { login: this.state.login, room });
+    history.push("/chat", { login: this.state.login });
     this.onJoin();
   };
   onJoin = () => {

@@ -2,10 +2,10 @@ import React from "react";
 import Header from "../app/modules/header";
 import Chatbox from "../app/components/chat/chatbox";
 import "emoji-mart/css/emoji-mart.css";
-import socket from "../app/components/api";
+import * as socketCluster from "socketcluster-client"
 import "../App.css";
 import Footer from "../app/modules/footer";
-
+const socket = socketCluster.connect()
 class Chat extends React.Component {
   constructor(props) {
     super(props);
@@ -30,7 +30,7 @@ class Chat extends React.Component {
     online: "",
   };
 
-  createChat = e => {
+  sendMessage = e => {
     const data = this.props.location.state;
     const room = data.room;
     if (e.key === "Enter" || e.type === "click") {
@@ -40,7 +40,7 @@ class Chat extends React.Component {
       if (msg === "") {
         return console.log("empty");
       } else {
-        socket.emit("message", { message: msg, date, login, room });
+        socket.emit("message", { message: msg, date, login});
       }
     }
   };
@@ -60,7 +60,7 @@ class Chat extends React.Component {
           </div>
         </div>
         <Footer
-          onPress={this.createChat}
+          onPress={this.sendMessage}
           onChange={e => this.setState({ msg: e.target.value })}
           value={this.state.msg}
         />

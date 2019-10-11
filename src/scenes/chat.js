@@ -12,7 +12,7 @@ class Chat extends React.Component {
     socket.on("message", data => {
       let message = this.state.message;
       message.push(data);
-      console.log("message:", message);
+      console.log("message on client:", message);
       this.setState({
         msg: "",
         message

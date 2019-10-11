@@ -47,7 +47,7 @@ class Login extends React.Component {
     this.onJoin();
   };
   onJoin = () => {
-    socket.emit("join", "Test");
+    socket.on("subscribe", "Test");
   };
 
   render() {

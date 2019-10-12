@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react";
 import smile from "../../assets/icons/smile1.svg";
 import image from "../../assets/icons/send4.svg";
 

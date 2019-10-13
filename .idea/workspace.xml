@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="532292e6-1515-4759-b676-d4750fbf49a0" name="Default" comment="upd styles">
+      <change afterPath="$PROJECT_DIR$/cluster-socket/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/cluster-socket/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cluster-socket/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/cluster-socket/worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/chat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/login-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/login-page.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,6 +124,7 @@
       <workItem from="1569055329959" duration="349000" />
       <workItem from="1569055728060" duration="7494000" />
       <workItem from="1569122429672" duration="210000" />
+      <workItem from="1570983307998" duration="4482000" />
     </task>
     <task id="LOCAL-00001" summary="upd styles">
       <created>1562561528263</created>
@@ -161,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563190551927</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="upd styles">
+      <created>1570948508848</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570948508848</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">

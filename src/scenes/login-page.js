@@ -40,7 +40,9 @@ class Login extends React.Component {
     if (online === 1) {
       return alert("Waiting to connect");
     }
+      socket.on('join', {name: 'Anon'})
     history.push("/chat", { login: this.state.login });
+
   };
 
 

@@ -4,7 +4,7 @@ let serveStatic = require('serve-static')
 let path = require('path')
 let morgan = require('morgan')
 let healthChecker = require('sc-framework-health-check')
-
+const { addUser, removeUser, getUser, getUsersInRoom } = require('./users');
 class Worker extends SCWorker {
   run() {
     console.log('   >> Worker PID:', process.pid)
@@ -24,58 +24,51 @@ class Worker extends SCWorker {
 
     httpServer.on('request', app)
 
-    let quests = []
-    let rooms = []
-    let online = 0
+    // let quests = []
+    // let rooms = []
+    // let online = 0
 
-    const createRoom = function(socket) {
-      if (quests.length >= 2) {
-        const first_user = quests.pop()
-        const second_user = quests.pop()
-
-        let room = first_user + '#' + second_user
-        console.log('room', room)
-        quests.splice(-0, 2)
-        rooms.push({
-          id: first_user + second_user,
-          firstUser: first_user,
-          secondUser: second_user,
-          room: room,
-        })
-        console.log('rooms', rooms)
-      }
-      console.log('only 1 user, has pushed in quests', quests.length)
-    }
+    // const createRoom = function(socket) {
+    //   if (quests.length >= 2) {
+    //     const first_user = quests.pop()
+    //     const second_user = quests.pop()
+    //
+    //     let room = first_user + '#' + second_user
+    //     console.log('room', room)
+    //     quests.splice(-0, 2)
+    //     rooms.push({
+    //       id: first_user + second_user,
+    //       firstUser: first_user,
+    //       secondUser: second_user,
+    //       room: room,
+    //     })
+    //     console.log('rooms', rooms)
+    //   }
+    //   console.log('only 1 user, has pushed in quests', quests.length)
+    // }
     scServer.on('connection', function(socket) {
-      console.log('User connected', socket.id)
-      quests.push(socket.id)
-      online++
-      console.log('online', online)
-      if (online < 2) {
-        console.log(' < 2 ')
-      } else {
-        console.log('> 2')
-        createRoom(socket)
-      }
+        console.log('user connected', socket.id)
+        socket.emit('join', ( name, callback) => {
+            console.log('Join', name)
+            const { error, user } = addUser({ room: socket.id, name});
+            if(error) return callback(error);
+            socket.join(user.room);
 
-      socket.on('disconnect', function() {
+            callback();
+        });
+
+        socket.on('disconnect', function() {
         console.log('User disconnected', socket.id)
-        rooms
-          .filter((item, index) => socket.id === item.firstUser && item.secondUser)
-          .map((item) => {
-            quests.push(
-              socket.id === item.firstUser ? item.secondUser : item.firstUser,
-            )
-            rooms.filter((item, index) => socket.id === !item.firstUser && !item.secondUser)
-          })
+        removeUser(socket.id)
+      })
+        socket.on('chat', (message, callback) => {
+            const user = getUser(socket.id);
+            console.log(message)
+            socket.emit('chat',  message );
 
-        console.log('after splice', quests)
-          console.log('rooms', rooms)
-        online--
-      })
-      socket.on('chat', data => {
-        socket.emit('chat', { message: data, rooms: 'test' })
-      })
+            callback();
+        });
+
     })
   }
 }

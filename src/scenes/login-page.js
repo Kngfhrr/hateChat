@@ -1,12 +1,11 @@
 import React from "react";
-// import socket from "../app/components/api";
 import "../app/components/styles/login-page.css";
 import { withRouter } from "react-router-dom";
-import * as socketCluster from "socketcluster-client";
+import socketCluster from "socketcluster-client";
 
 
 let options = {
-    port: 8000,
+    port: 8080,
     hostname: "localhost",
     autoConnect: true,
 };
@@ -15,8 +14,6 @@ let options = {
 
 class Login extends React.Component {
   constructor(props) {
-
-
 
     super(props);
       socket.on('error', function (err) {
@@ -44,11 +41,8 @@ class Login extends React.Component {
       return alert("Waiting to connect");
     }
     history.push("/chat", { login: this.state.login });
-    this.onJoin();
   };
-  onJoin = () => {
-    socket.on("subscribe", "Test");
-  };
+
 
   render() {
     console.log(this.state.login);

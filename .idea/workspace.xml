@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="532292e6-1515-4759-b676-d4750fbf49a0" name="Default" comment="upd styles">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/send1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/send2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/send3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/send4.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/smile1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server-socket/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-socket/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/chat/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/chat/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/modules/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/chatbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/components/chat/chatbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icons/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster-socket/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/cluster-socket/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cluster-socket/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/cluster-socket/worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scenes/login-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/login-page.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,6 +176,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

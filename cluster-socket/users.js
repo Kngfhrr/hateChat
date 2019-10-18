@@ -1,28 +1,46 @@
-const users = [];
+const users = []
 
 const addUser = ({ id, name }) => {
-    name = name.trim().toLowerCase();
-    console.log('users', users)
-    const existingUser = users.find((user) => user.name === name);
+  // const existingUser = users.find((user) => user.name === name);
 
-    if(!name) return { error: 'Username and room are required.' };
-    if(existingUser) return { error: 'Username is taken.' };
+  // if(!name) return { error: 'Username and room are required.' };
+  // if(existingUser) return { error: 'Username is taken.' };
 
-    const user = { id, name};
-
-    users.push(user);
-
-    return { user };
+  const user = { id, name }
+  users.push(user)
+  console.log('USERS from users.js', users)
+  return { user }
 }
 
-const removeUser = (id) => {
-    const index = users.findIndex((user) => user.id === id);
-
-    if(index !== -1) return users.splice(index, 1)[0];
+const getRandomUsers = () => {
+  if (users.length >= 2) {
+    const first = users.pop()
+    const second = users.pop()
+    const room = first.id + '#' + second.id
+    const data = { first: first.id, second: second.id, room: room }
+    return data
+  }
+  return false
 }
 
-const getUser = (id) => users.find((user) => user.id === id);
+const removeUser = (first, second) => {
+  const firstIndex = users.findIndex(user => user.id === first)
+  const secondIndex = users.findIndex(user => user.id === second)
 
-const getUsersInRoom = (room) => users.filter((user) => user.room === room);
+  if (firstIndex !== -1) return users.splice(firstIndex, 1)[0]
 
-module.exports = { addUser, removeUser, getUser, getUsersInRoom };
+  if (secondIndex !== -1) return users.splice(secondIndex, 1)[0]
+}
+
+const getUser = id => users.find(user => user.id === id)
+
+const getUsersInRoom = room => users.filter(user => user.room === room)
+
+module.exports = {
+  addUser,
+  removeUser,
+  getUser,
+  getUsersInRoom,
+  users,
+  getRandomUsers,
+}

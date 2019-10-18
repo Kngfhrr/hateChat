@@ -6,12 +6,17 @@ import socketCluster from 'socketcluster-client'
 import '../App.css'
 import Footer from '../app/modules/footer'
 
+
+
 let options = {
   port: 8080,
   hostname: 'localhost',
   autoConnect: true,
 }
 const socket = socketCluster.connect(options)
+
+
+
 class Chat extends React.Component {
   constructor(props) {
     super(props)
@@ -37,15 +42,20 @@ class Chat extends React.Component {
   }
 
   sendMessage = e => {
+
     const data = this.props.location.state
+      socket.on('subscribe', function(channelname) {
+          console.log('subscribe:' + channelname);
+      });
     if (e.key === 'Enter' || e.type === 'click') {
       const date = new Date()
-      const login = this.state.login
+      const login = data.login
+        const room = data.room
       const msg = this.state.msg
       if (msg === '') {
         return console.log('empty')
       } else {
-        socket.emit('chat', { message: msg, date, login })
+        socket.emit('chat', { message: msg, date, login, room })
       }
     }
   }

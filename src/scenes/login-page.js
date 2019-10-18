@@ -1,53 +1,59 @@
-import React from "react";
-import "../app/components/styles/login-page.css";
-import { withRouter } from "react-router-dom";
-import socketCluster from "socketcluster-client";
-
+import React from 'react'
+import '../app/components/styles/login-page.css'
+import { withRouter } from 'react-router-dom'
+import socketCluster from 'socketcluster-client'
 
 let options = {
-    port: 8080,
-    hostname: "localhost",
-    autoConnect: true,
-};
+  port: 8081,
+  hostname: 'localhost',
+  autoConnect: true,
+}
 
-   const socket = socketCluster.connect(options)
+const socket = socketCluster.connect(options)
 
 class Login extends React.Component {
   constructor(props) {
+    super(props)
+    socket.on('error', function(err) {
+      throw 'Socket error - ' + err
+    })
 
-    super(props);
-      socket.on('error', function (err) {
-          throw 'Socket error - ' + err;
-      });
-
-      socket.on('connect', function () {
-          console.log('Connected to server');
-      });
+    socket.on('connect', data => {
+      console.log('Connected to server', data.id)
+      this.setState({ id: data.id })
+      console.log('state', this.state.id)
+    })
   }
 
   state = {
-    room: "",
-    login: "Anon",
-      online: 0
-  };
-
+    room: '',
+    id: '',
+    login: 'Anon',
+    online: 0,
+    ready: false,
+  }
 
   onButtonClick = () => {
-    const online = this.state.online;
-    const { history } = this.props;
-    const room = this.state.room;
-    console.log(room);
+    const online = this.state.online
+    const { history } = this.props
+    const room = this.state.room
+
+    console.log(room)
     if (online === 1) {
-      return alert("Waiting to connect");
+      return alert('Waiting to connect')
     }
-      socket.on('join', {name: 'Anon'})
-    history.push("/chat", { login: this.state.login });
-
-  };
-
+    socket.emit('join', this.state.id)
+    socket.on('start', data => {
+      console.log('start', data)
+      if (this.state.id === data.first || data.second) {
+        history.push('/chat', { login: this.state.login, room: data })
+      }
+      alert('no users')
+    })
+  }
 
   render() {
-    console.log(this.state.login);
+    console.log(this.state.login)
     return (
       <div className="Login">
         <div className="online-user-div">
@@ -62,7 +68,7 @@ class Login extends React.Component {
             className="login-input"
             placeholder="Enter login"
             onChange={e => {
-              this.setState({ login: e.target.value });
+              this.setState({ login: e.target.value })
             }}
           />
           <button
@@ -73,8 +79,8 @@ class Login extends React.Component {
           </button>
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default withRouter(Login);
+export default withRouter(Login)

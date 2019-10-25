@@ -1,79 +1,51 @@
-let cluster = require('cluster');
-let io = [];
-let cpuCount = require('os').cpus().length;
-let workers = [];
-let cors = require('cors')
-
-if (cluster.isMaster) {
-    for (let i = 0; i < cpuCount; i += 1) {
-        let worker = cluster.fork();
-        worker.on('message', function(data) {
-            for (let j in workers) {workers[j].send(data);}
-        });
-        workers.push(worker);
-    }
-
-
-}
-
-if (cluster.isWorker) {
-
-    let worker_id = cluster.worker.id;
-    let express  = require('express');
-    let app = express();
-    let server = require('http').Server(app);
-    io[worker_id] = require('socket.io')(server);
-    server.listen(3051+worker_id);
-
-    io[worker_id].on('connection', function (socket) {
-        console.log( socket.id );
-        console.log( "WORKER ID :"+worker_id );
-        socket.emit('news', { hello: 'world' });
-        socket.on('my other event', function (data) {
-            console.log(data);
-        });
-    });
-
-    let app_express = express();
-    app_express.use(cors())
-    app_express.listen(3051);
-    app_express.use(express.static('public'));//отдаем статичные данные
-    app_express.get('/', cors(), function (request, response) {
-        response.send('Hello from Worker '+worker_id);
-        console.log( '------' );
-
-    });
-
-
-    app_express.get('/get_port', cors(), function (request, response) {
-        response.send(3051+worker_id);
-        console.log( 'get_port' );
-    });
-
-
-    app_express.get('/api', cors(), function (request, response) {
-
-        response.setHeader('Content-Type', 'application/json');
-        let id = request.param('id');
-        let msg = request.param('msg');
-        let JSON_DATA = {
-            "worker_id":worker_id
-            ,"id":id
-            ,"msg":msg
-        };
-
-        io[port-3030].to(msg.id).emit('news', msg.msg);
-        response.send(	JSON.stringify(JSON_DATA) );
-        process.send(JSON_DATA);
-
-    });
-
-    process.on('message', function(msg){
-        console.log(worker_id);
-        console.log(msg.id);
-        console.log(msg.msg);
-        io[worker_id].to(msg.id).emit('news', msg.msg);
-
-    });
-
-}
+var express = require('express');
+var bodyParser = require('body-parser')
+var app = express();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
+var mongoose = require('mongoose');
+app.use(express.static(__dirname));
+var cors = require('cors')
+app.use(cors())
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}))
+var Message = mongoose.model('Message',{
+    name : String,
+    message : String
+})
+var dbUrl = 'mongodb+srv://kngfhrr:Kungfuhrer42+@hatechat-kaecr.mongodb.net/test?retryWrites=true&w=majority'
+app.get('/messages', (req, res) => {
+    Message.find({},(err, messages)=> {
+        res.send(messages);
+    })
+})
+app.get('/messages', (req, res) => {
+    Message.find({},(err, messages)=> {
+        console.log('res', res)
+        res.send(messages);
+    })
+})
+app.post('/messages', (req, res) => {
+    var message = new Message(req.body);
+    message.save((err) =>{
+        if(err)
+            sendStatus(500);
+        console.log('req', req.body)
+        io.emit('message', req.body);
+        res.sendStatus(200);
+    })
+})
+io.on('connection', () =>{
+    console.log('a user is connected')
+})
+mongoose.connect(dbUrl ,{useNewUrlParser: true,
+    useFindAndModify: false,
+    useCreateIndex: true,
+    useUnifiedTopology: true,
+    reconnectTries: 30,
+    reconnectInterval: 500,} ,(err) => {
+    console.log('mongodb connected',err);
+})
+var server = http.listen(8083, () => {
+    console.log('server is running on port', server.address().port);
+});

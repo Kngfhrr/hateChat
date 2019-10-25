@@ -7,6 +7,7 @@ let options = {
   port: 8081,
   hostname: 'localhost',
   autoConnect: true,
+    reconnectDelay: 5000
 }
 
 const socket = socketCluster.connect(options)
@@ -44,11 +45,8 @@ class Login extends React.Component {
     }
     socket.emit('join', this.state.id)
     socket.on('start', data => {
-      console.log('start', data)
-      if (this.state.id === data.first || data.second) {
+
         history.push('/chat', { login: this.state.login, room: data })
-      }
-      alert('no users')
     })
   }
 

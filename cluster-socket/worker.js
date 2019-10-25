@@ -25,31 +25,19 @@ class Worker extends SCWorker {
     httpServer.on('request', app)
 
 
-    scServer.on('connection', function(socket) {
-        console.log('user connected', socket.id)
-        const {error, user} = addUser({id: socket.id})
+      scServer.on('connection', function (socket) {
 
-        socket.on('join', async (id) => {
-            const room = await getRandomUsers()
+          console.log('User connected');
 
-            if(error){
-                console.log('ERROR')
-            }
-        });
+          socket.on('chat', function (data) {
+              scServer.global.publish('yell', data);
+              console.log('Chat:', data);
+          });
 
-        socket.on('disconnect', function() {
-        console.log('User disconnected', socket.id)
-        removeUser(socket.id)
-      })
-        socket.on('chat', (message, callback) => {
-            socket.emit('chat',  message, ()=>{
-                console.log('MESSAGE', message)
-            } );
-
-            callback();
-        });
-
-    })
+          socket.on('disconnect', function () {
+              console.log('User disconnected');
+          });
+      });
   }
 }
 

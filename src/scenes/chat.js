@@ -9,30 +9,30 @@ import Footer from '../app/modules/footer'
 
 
 let options = {
-  port: 8080,
+  port: 8081,
   hostname: 'localhost',
   autoConnect: true,
 }
 const socket = socketCluster.connect(options)
 
-
+let chatChannel = socket.subscribe('yell');
 
 class Chat extends React.Component {
-  constructor(props) {
-    super(props)
-    socket.on('chat', data => {
-      const message = this.state.message
-      message.push(data.message)
-      console.log('message on client:', data)
-      this.setState({
-        msg: '',
-        message,
-      })
-      const chatWindow = document.getElementById('chat-form')
-      const height = chatWindow.scrollHeight
-      chatWindow.scrollBy(0, height)
-    })
-  }
+  // constructor(props) {
+  //   super(props)
+  //   socket.on('chat', data => {
+  //     const message = this.state.message
+  //     message.push(data.message)
+  //     console.log('message on client:', data)
+  //     this.setState({
+  //       msg: '',
+  //       message,
+  //     })
+  //     const chatWindow = document.getElementById('chat-form')
+  //     const height = chatWindow.scrollHeight
+  //     chatWindow.scrollBy(0, height)
+  //   })
+  // }
 
   state = {
     message: [],
@@ -42,20 +42,16 @@ class Chat extends React.Component {
   }
 
   sendMessage = e => {
-
-    const data = this.props.location.state
-      socket.on('subscribe', function(channelname) {
-          console.log('subscribe:' + channelname);
-      });
     if (e.key === 'Enter' || e.type === 'click') {
-      const date = new Date()
-      const login = data.login
-        const room = data.room
       const msg = this.state.msg
       if (msg === '') {
         return console.log('empty')
       } else {
-        socket.emit('chat', { message: msg, date, login, room })
+          fetch('http://localhost:8083/messages', {
+              method: 'GET',
+              data: 'fsd'
+          })
+              .then(res => console.log('res', res))
       }
     }
   }

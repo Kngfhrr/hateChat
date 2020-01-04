@@ -1,3 +1,3 @@
 import openSocket from 'socket.io-client'
-const socket = openSocket('https://hate-chat.herokuapp.com')
+const socket = openSocket('http://localhost:3001')
 export default socket

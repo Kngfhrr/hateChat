@@ -8,9 +8,16 @@ let { dbUrl } = require('./base')
 let cors = require('cors')
 app.use(cors())
 let corsOptions = {
-  origin: 'https://hate-chat.herokuapp.com/',
+  origin: 'localhost:3000',
   optionsSuccessStatus: 200,
 }
+
+app.use(express.static(path.join(__dirname, 'build')));
+
+
+app.get('/*', (req, res) => {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+})
 
 app.use(express.static(__dirname))
 app.use(bodyParser.json())

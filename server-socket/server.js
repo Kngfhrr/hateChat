@@ -8,7 +8,7 @@ let { dbUrl } = require('./base')
 let cors = require('cors')
 app.use(cors())
 let corsOptions = {
-  origin: 'http://localhost/3000',
+  origin: 'https://hate-chat.herokuapp.com/',
   optionsSuccessStatus: 200,
 }
 

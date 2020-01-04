@@ -41,7 +41,7 @@ class Chat extends React.Component {
       if (!msg) {
         return console.log('empty')
       } else {
-        fetch('http://localhost:3001/messages', {
+        fetch('https://hate-chat.herokuapp.com/messages', {
           method: 'POST',
           headers: {
             Accept: 'application/json',

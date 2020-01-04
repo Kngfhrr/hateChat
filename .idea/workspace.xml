@@ -2,42 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="532292e6-1515-4759-b676-d4750fbf49a0" name="Default" comment="upd styles">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-socket/base.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-socket/models.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server-socket/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kit/components/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/kit/components/chat/chatbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.graphcoolrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/.dockerignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/broker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/dockerwait.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/public/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/public/socketcluster.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-socket/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cluster-socket/worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql.config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphql.schema.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server-socket/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server-socket/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/api.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/chat/chatbox.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/styles/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/kit/components/styles/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/components/styles/login-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/kit/components/styles/login-page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/kit/modules/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/modules/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/kit/modules/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kit/components/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/kit/components/api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scenes/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/chat.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scenes/login-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/scenes/login-page.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -188,7 +158,7 @@
       <workItem from="1571914158587" duration="599000" />
       <workItem from="1572411374225" duration="84000" />
       <workItem from="1578057615078" duration="17538000" />
-      <workItem from="1578119534247" duration="9354000" />
+      <workItem from="1578119534247" duration="11055000" />
     </task>
     <task id="LOCAL-00001" summary="upd styles">
       <created>1562561528263</created>
@@ -239,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571399240863</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="upd styles">
+      <created>1578137446202</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1578137446202</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">

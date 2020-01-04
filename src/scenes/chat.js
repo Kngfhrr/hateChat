@@ -41,7 +41,7 @@ class Chat extends React.Component {
       if (!msg) {
         return console.log('empty')
       } else {
-        fetch('http://localhost:3001/messages', {
+        fetch('http://localhost:3002/messages', {
           method: 'POST',
           headers: {
             Accept: 'application/json',

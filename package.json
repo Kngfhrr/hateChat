@@ -24,7 +24,7 @@
     "isomorphic-fetch": "^2.2.1",
     "module_name": "^1.0.0",
     "moment": "^2.24.0",
-    "mongo-express": "^0.52.2",
+    "mongo-express": "^0.54.0",
     "mongoose": "^5.8.4",
     "multiparty": "^4.2.1",
     "node-sass": "^4.13.0",

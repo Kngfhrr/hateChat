@@ -1,15 +1,15 @@
 const users = []
 
-const addUser = ({ id, name }) => {
+const addUser = (id) => {
   // const existingUser = users.find((user) => user.name === name);
 
   // if(!name) return { error: 'Username and room are required.' };
   // if(existingUser) return { error: 'Username is taken.' };
 
-  const user = { id, name }
+  const user = id
   users.push(user)
   console.log('USERS from users.js', users)
-  return { user }
+  return  user
 }
 
 const getRandomUsers = () => {

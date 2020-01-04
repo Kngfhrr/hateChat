@@ -14,10 +14,10 @@ const Header = props => (
       <div className={"online-status"}>
         <div
           className={"status"}
-          style={{ background: !!props.active ? "#00FF09" : "#F50057" }}
+          style={{ background: !!props.connected ? "#00FF09" : "#F50057" }}
         />
         <span className="your-login">
-          {!!props.login ? props.login : "Anon"}
+          {!!props.name ? props.name : "Anon"}
         </span>
       </div>
       <span className={"active"}>

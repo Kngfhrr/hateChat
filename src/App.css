@@ -85,8 +85,19 @@ body {
   max-width: calc(30em * 0.5);
   padding: 10px;
   margin-top: 4px;
-
 }
+.message-r {
+  height: max-content;
+  background: #adada6;
+  opacity: 1;
+  border-radius: 15px;
+  width: max-content;
+  word-wrap: break-word;
+  max-width: calc(30em * 0.5);
+  padding: 10px;
+  margin-top: 4px;
+}
+
 
 .block-message {
   display: flex;
@@ -98,6 +109,12 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 17px
+}
+.right-message {
+  display: flex;
+  justify-content: flex-end;
+  margin: 17px;
+  align-self: flex-end;
 }
 .time {
   font-size: 12px;

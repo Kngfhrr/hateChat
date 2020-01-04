@@ -1,71 +1,75 @@
 import React from 'react'
-import Header from '../app/modules/header'
-import Chatbox from '../app/components/chat/chatbox'
-
-import socketCluster from 'socketcluster-client'
+import Header from '../kit/modules/header'
+import Chatbox from '../kit/components/chat/chatbox'
 import '../App.css'
-import Footer from '../app/modules/footer'
-
-
-
-let options = {
-  port: 8081,
-  hostname: 'localhost',
-  autoConnect: true,
-}
-const socket = socketCluster.connect(options)
-
-let chatChannel = socket.subscribe('yell');
+import Footer from '../kit/modules/footer'
+import socket from '../kit/components/api'
 
 class Chat extends React.Component {
-  // constructor(props) {
-  //   super(props)
-  //   socket.on('chat', data => {
-  //     const message = this.state.message
-  //     message.push(data.message)
-  //     console.log('message on client:', data)
-  //     this.setState({
-  //       msg: '',
-  //       message,
-  //     })
-  //     const chatWindow = document.getElementById('chat-form')
-  //     const height = chatWindow.scrollHeight
-  //     chatWindow.scrollBy(0, height)
-  //   })
-  // }
-
+  constructor(props) {
+    super(props)
+    socket.on('connect', async (data) => {
+      console.log('SOCKET', socket)
+      console.log('ME', localStorage.getItem('me'))
+      this.setState({ me: socket.id })
+    })
+    socket.on('message', data => {
+      const message = this.state.message
+      console.log('MESSAGE', message)
+      message.push(data)
+      this.setState({
+        msg: '',
+        message,
+      })
+      const chatWindow = document.getElementById('chat-form')
+      const height = chatWindow.scrollHeight
+      chatWindow.scrollBy(0, height)
+    })
+  }
   state = {
     message: [],
     msg: '',
-    login: 'Anon',
-    online: '',
+    id: '',
+    me: '',
   }
 
   sendMessage = e => {
+    const name = localStorage.getItem('name')
+    const me = localStorage.getItem('me')
     if (e.key === 'Enter' || e.type === 'click') {
       const msg = this.state.msg
-      if (msg === '') {
+      if (!msg) {
         return console.log('empty')
       } else {
-          fetch('http://localhost:8083/messages', {
-              method: 'GET',
-              data: 'fsd'
-          })
-              .then(res => console.log('res', res))
+        fetch('http://localhost:3001/messages', {
+          method: 'POST',
+          headers: {
+            Accept: 'application/json',
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            name: name,
+            message: this.state.msg,
+            id: me,
+          }),
+        }).then(function(response) {
+          return response
+        })
       }
     }
   }
-
   render() {
+    const me = localStorage.getItem('me')
+    const name = localStorage.getItem('name')
     const state = this.props.location.state
     const message = this.state.message
     return (
       <div className="App">
-        <Header props={state} />
+        <Header props={state} name={name} connected={socket.connected} />
         <div>
           <div id="chat-form" className="chat-form">
             {message.map((message, index) => (
-              <Chatbox key={index} message={message} />
+              <Chatbox key={index} message={message} me={me} />
             ))}
           </div>
         </div>

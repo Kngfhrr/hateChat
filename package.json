@@ -27,7 +27,7 @@
     "mongo-express": "^0.52.2",
     "mongoose": "^5.8.4",
     "multiparty": "^4.2.1",
-    "node-sass": "^4.13.0",
+    "node-sass": "^7.0.0",
     "nodemon": "^1.19.4",
     "prettier": "^1.19.1",
     "react": "^16.12.0",
